@@ -1,28 +1,20 @@
-# GitHub CLI
 
-`gh` is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with `git` and your code.
 
-![screenshot of gh pr status](https://user-images.githubusercontent.com/98482/84171218-327e7a80-aa40-11ea-8cd1-5177fc2d0e72.png)
+ is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with `gi` and your code.
+(https://user-images.githubusercontent.com/98482/84171218-327e7a80-aa40-11ea-8cd1-5177fc2d0e72.png)
 
 GitHub CLI is supported for users on GitHub.com, GitHub Enterprise Cloud, and GitHub Enterprise Server 2.20+ with support for macOS, Windows, and Linux.
+(#installation), for usage instructions ( https://cli.github.com/manual/).
 
-## Documentation
 
-For [installation options see below](#installation), for usage instructions [see the manual]( https://cli.github.com/manual/).
 
-## Contributing
+If anything feels off or if you feel that some functionality is missing, please check github/CONTRIBUTING.md). There you will find instructions for sharing your feedback, building the tool locally, and submitting pull requests to the project.
 
-If anything feels off or if you feel that some functionality is missing, please check out the [contributing page](.github/CONTRIBUTING.md). There you will find instructions for sharing your feedback, building the tool locally, and submitting pull requests to the project.
-
-If you are a hubber and are interested in shipping new commands for the CLI, check out our [doc on internal contributions](docs/working-with-us.md)
+If you are a hubber and are interested in shipping new commands for the CLI, check out our ](docs/working-with-us.md)
 
 <!-- this anchor is linked to from elsewhere, so avoid renaming it -->
-## Installation
-
-### [macOS](docs/install_macos.md)
-
-- [Homebrew](docs/install_macos.md#homebrew)
-- [Precompiled binaries](docs/install_macos.md#precompiled-binaries) on [releases page][]
+]docs/install_macos.md#homebrew)
+](docs/install_macos.md#precompiled-binaries) on [releases page][]
 
 For additional macOS packages and installers, see [community-supported docs](docs/install_macos.md#community-unofficial)
 
@@ -61,7 +53,7 @@ To add GitHub CLI to your codespace, add the following to your [devcontainer fil
 
 If a specific version is needed, your GitHub Actions workflow will need to install it based on the [macOS](#macos), [Linux & Unix](#linux--unix), or [Windows](#windows) instructions above.
 
-For information on all pre-installed tools, see [`actions/runner-images`](https://github.com/actions/runner-images)
+For information on all pre-installed tools,`](https://github.com/actions/runner-images)
 
 ### Verification of binaries
 
